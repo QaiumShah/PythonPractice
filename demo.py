@@ -42,5 +42,17 @@ def f():
     print("I am calling 'g' now: ") #2
     g() #3
 
-f()
+f() ## calling function f
+
+# Functions as parameters
+#number represents the order of execution of the code
+
+def g():
+    print("Hi, it's me 'g'")    #3
+
+def f(func):    #declaring a function 'f' with function 'func' as parameter
+    print("Hi, its me 'f'") #1
+    func()  #2
+
+f(g)    #calling function f with g function as parameter
 
