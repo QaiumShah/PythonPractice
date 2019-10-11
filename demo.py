@@ -77,7 +77,10 @@ def c(x):           #declaring function 'c' with parameter 'x'
 nf1 = c(1)      # nf1 is now new function with x=1; y + 1 + 3
 nf2 = c(3)      # nf2 is now new function with x=3; y + 3 + 3
 
-print(nf1(1))   # y = 1 in nf1 function because nf1 is holding d as return of c
-print(nf2(1))   # y = 1 in nf2 functionn because nf2 is holding d as return of c
+print(nf1(1))   # 'y = 1' in 'nf1' function because 'nf1' is holding 'd' as return of 'c'
+print(nf2(1))   # 'y = 1' in 'nf2' functionn because 'nf2' is holding 'd' as return of 'c'
 
 ##output: 5 and 7
+
+
+
